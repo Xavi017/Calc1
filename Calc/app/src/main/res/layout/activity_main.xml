@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+   android:padding="20dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"></LinearLayout>
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="1670dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="30dp"
+        android:text="@string/tv1" />
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="1670dp"
+        android:background="@drawable/estilo_bordes"
+        android:layout_height="45dp"
+        android:inputType="number"
+        android:layout_marginBottom="30dp"
+        android:layout_below="@id/tv1"/>
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="1670dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="30dp"
+        android:text="@string/tv2"
+        android:layout_below="@id/et1"/>
+
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="1670dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/estilo_bordes"
+        android:ems="10"
+        android:inputType="number"
+        android:layout_below="@id/tv2"/>
+
+    <Spinner
+        android:id="@+id/sp1"
+        android:layout_marginBottom="30dp"
+        android:layout_width="1670dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/et2"/>
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="1670dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/sp1"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="30dp"
+        android:background="@color/colorrojo"
+        android:onClick="matematicas"
+        android:text="@string/tv3"
+        android:textColor="@color/colorblanco"
+        />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="1670dp"
+        android:layout_height="45dp"
+        android:layout_below="@id/btn1"
+        android:layout_marginBottom="30dp"
+        android:gravity="center_horizontal"
+        android:text="?"
+        android:textSize="20dp" />
+</RelativeLayout>

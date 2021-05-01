@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Calc</string>
+
+    <string name="tv1">First number</string>
+    <string name="tv2">Second number</string>
+    <string name="btn1">Add </string>
+    <string name="tv3">Get result </string>
+
+</resources>
